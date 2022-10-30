@@ -1,0 +1,32 @@
+class WOSSlithElectricStatic extends WOSSlithAdvancedAura;
+
+defaultproperties
+{
+     mMaxParticles=5
+     mDelayRange(1)=0.150000
+     mLifeRange(0)=0.100000
+     mLifeRange(1)=0.200000
+     mRegenRange(0)=50.099998
+     mRegenRange(1)=50.099998
+     mPosDev=(X=12.000000,Y=12.000000,Z=12.000000)
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mPosRelative=True
+     mRandOrient=True
+     mSpinRange(0)=-100.000000
+     mSpinRange(1)=100.000000
+     mSizeRange(0)=40.000000
+     mSizeRange(1)=68.000000
+     mGrowthRate=5.000000
+     mColorRange(0)=(G=160,R=160,A=76)
+     mColorRange(1)=(G=160,R=160,A=76)
+     mAttenKa=0.100000
+     mAttenFunc=ATF_ExpInOut
+     mRandTextures=True
+     mNumTileColumns=2
+     mNumTileRows=2
+     CullDistance=10000.000000
+     Physics=PHYS_Trailer
+     Skins(0)=Texture'AW-2004Particles.Energy.ElecPanels'
+     Style=STY_Translucent
+}

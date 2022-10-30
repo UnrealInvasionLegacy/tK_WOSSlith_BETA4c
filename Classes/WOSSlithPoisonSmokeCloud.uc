@@ -1,0 +1,33 @@
+class WOSSlithPoisonSmokeCloud extends xEmitter;
+
+defaultproperties
+{
+     mRegen=False
+     mStartParticles=5
+     mMaxParticles=5
+     mDelayRange(1)=0.150000
+     mLifeRange(0)=2.250000
+     mLifeRange(1)=2.750000
+     mDirDev=(X=0.250000,Y=0.250000,Z=0.250000)
+     mPosDev=(X=8.000000,Y=8.000000,Z=8.000000)
+     mSpeedRange(0)=20.000000
+     mSpeedRange(1)=80.000000
+     mPosRelative=True
+     mRandOrient=True
+     mSpinRange(0)=-100.000000
+     mSpinRange(1)=100.000000
+     mSizeRange(0)=40.000000
+     mSizeRange(1)=60.000000
+     mGrowthRate=10.000000
+     mColorRange(0)=(B=64,G=96,R=64)
+     mColorRange(1)=(B=64,G=96,R=64)
+     mAttenKa=0.100000
+     mAttenFunc=ATF_ExpInOut
+     mRandTextures=True
+     mNumTileColumns=4
+     mNumTileRows=4
+     CullDistance=10000.000000
+     Physics=PHYS_Trailer
+     Skins(0)=Texture'AW-2004Particles.Weapons.SmokePanels1'
+     Style=STY_Alpha
+}

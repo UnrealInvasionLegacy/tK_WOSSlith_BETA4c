@@ -1,0 +1,29 @@
+class WOSSlithArcticTrailSmoke extends xEmitter;
+
+defaultproperties
+{
+     mStartParticles=0
+     mLifeRange(0)=0.100000
+     mLifeRange(1)=0.140000
+     mRegenRange(0)=300.000000
+     mRegenRange(1)=300.000000
+     mPosDev=(X=5.000000,Y=5.000000,Z=5.000000)
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mMassRange(0)=-1.000000
+     mMassRange(1)=-1.200000
+     mSizeRange(0)=20.000000
+     mSizeRange(1)=25.000000
+     mGrowthRate=-20.000000
+     mColorRange(1)=(G=200,R=200)
+     mAttenKa=0.500000
+     mNumTileColumns=4
+     mNumTileRows=4
+     Physics=PHYS_Trailer
+     AmbientSound=Sound'WeaponSounds.BaseProjectileSounds.BFlakCannonProjectile'
+     LifeSpan=10.000000
+     Skins(0)=Texture'AW-2004Particles.Weapons.SmokePanels1'
+     Style=STY_Translucent
+     SoundVolume=190
+     SoundRadius=32.000000
+}

@@ -1,0 +1,31 @@
+class WOSSlithToxicAdvancedMiasma extends WOSSlithAdvancedAura;
+
+defaultproperties
+{
+     mMaxParticles=5
+     mDelayRange(1)=0.150000
+     mLifeRange(0)=15.000000
+     mLifeRange(1)=20.000000
+     mPosDev=(X=10.000000,Y=10.000000,Z=10.000000)
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mPosRelative=True
+     mRandOrient=True
+     mSpinRange(0)=-10.000000
+     mSpinRange(1)=10.000000
+     mSizeRange(0)=90.000000
+     mSizeRange(1)=100.000000
+     mGrowthRate=5.000000
+     mColorRange(0)=(B=64,G=96,R=64)
+     mColorRange(1)=(B=64,G=96,R=64)
+     mAttenKa=0.100000
+     mAttenKb=0.900000
+     mAttenFunc=ATF_ExpInOut
+     mRandTextures=True
+     mNumTileColumns=4
+     mNumTileRows=4
+     CullDistance=10000.000000
+     Physics=PHYS_Trailer
+     Skins(0)=Texture'AW-2004Particles.Weapons.SmokePanels1'
+     Style=STY_Alpha
+}
